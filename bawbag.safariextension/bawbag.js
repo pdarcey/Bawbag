@@ -32,9 +32,11 @@ function handleText(textNode)  {
 	v = v.replace(/\bPresident Trump\b/g, "President #Bawbag");
 	v = v.replace(/\Mr Trump\b/g, "The #Bawbag");
 	v = v.replace(/\bDonald Trump\b/g, "#Bawbag");
-	v = v.replace(/\bTrump\b/g, "#Bawbag");
 	v = v.replace(/\bPOTUS\b/g, "SCROTUS");
-	v = v.replace(/\Ivanka\b/g, "That Useless Ivanka™");
+	v = v.replace(/\bIvanka Trump\b/g, "Ivanka");
+	v = v.replace(/\bIvanka\b/g, "That Useless Ivanka™");
+	v = v.replace(/\bMs Trump\b/g, "That Useless Ivanka™");
+	v = v.replace(/\bTrump\b/g, "#Bawbag");
 	
 	textNode.nodeValue = v;
 }
