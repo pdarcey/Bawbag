@@ -30,6 +30,7 @@ function handleText(textNode)  {
 	var v = textNode.nodeValue;
 	
 	v = v.replace(/\bPresident Trump\b/g, "President #Bawbag");
+	v = v.replace(/\bPRESIDENT TRUMP\b/g, "PRESIDENT #BAWBAG");
 	v = v.replace(/\Mr Trump\b/g, "The #Bawbag");
 	v = v.replace(/\bDonald Trump\b/g, "#Bawbag");
 	v = v.replace(/\bPOTUS\b/g, "SCROTUS");
