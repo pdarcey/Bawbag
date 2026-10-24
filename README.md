@@ -1,6 +1,15 @@
+---
+name: Bawbag
+description: "A Safari extension that replaces mentions of Donald Trump with #Bawbag and POTUS with SCROTUS."
+version: "1.0.0"
+readmeUpdated: 2026-10-24
+tags:
+  - Safari Extension
+---
+
 # Bawbag
 
-<img src="logo.png" alt="Bawbag logo" width="128">
+<img src="logo.png" alt="Bawbag logo: a white X crossed through an orange circle containing a navy hashtag, on a navy background" width="128" height="128" align="left" hspace="16">
 
 This is a safari extension to replace occurances of Donald Trump, President Trump, etc. with #Bawbag.
 
